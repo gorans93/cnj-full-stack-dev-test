@@ -12,7 +12,7 @@ Laravel 6 LTS and Vue.js 2 are used for this project.
  
 
 ## Project setup
-- Clone project repository from git 
+- Clone project repository from Github 
 - Inside project run composer install to install PHP depedencies
 - Run npm install && npm run dev ( or npm run watch ) to build javascript depedencies.
 - Make copy .env  of .env.example file and add database credentials to .env file
@@ -20,4 +20,7 @@ Laravel 6 LTS and Vue.js 2 are used for this project.
 - Run php artisan storage:link to link public and storage files.
 - Run php artisan serve and start application.
 - Open http://localhost:8000 in browser
+
+## Note
+-I have excluded unit tests for this project, otherwise I would use Laravel builtin testing library. 
 

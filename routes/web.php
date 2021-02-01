@@ -11,10 +11,4 @@
 |
 */
 
-Route::get('/test', function (){
-
-
-    dd(\Illuminate\Support\Facades\Storage::get('app/public'));
-    dd(storage_path());
-});
 Route::get('/{any}', 'AppController@index')->where('any', '.*');
